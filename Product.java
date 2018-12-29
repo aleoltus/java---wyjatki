@@ -2,9 +2,9 @@ package com.company;
 
 public class Product {
     private String name;
-    private String prize;
+    private int prize;
 
-    public Product(String name, String prize){
+    public Product(String name, int prize){
         this.name = name;
         this.prize = prize;
     }
@@ -17,11 +17,11 @@ public class Product {
         this.name = name;
     }
 
-    public String getPrize() {
+    public int getPrize() {
         return prize;
     }
 
-    public void setPrize(String prize) {
+    public void setPrize(int prize) {
         this.prize = prize;
     }
 }
