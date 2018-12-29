@@ -1,6 +1,6 @@
 package com.company;
 
-public class Product {
+public class Product{
     private String name;
     private int prize;
 

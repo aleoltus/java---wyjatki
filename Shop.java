@@ -1,6 +1,11 @@
 package com.company;
 
-public class Shop {
-    Product product1 = new Product("kubek", 5)
+public class Shop{
+    public static void main(String args[]) {
+        Product product1 = new Product("kubek", 5);
+        Product product2 = new Product("kubek", 5);
 
+        System.out.print(product1 == product2); //false
+        System.out.println(product1.equals(product2)); //false
+    }
 }
