@@ -10,6 +10,7 @@ public class Shop{
 
         System.out.println("10 == 10" + (10 == 10) );
         System.out.println("10 != 10" + (10 != 10) );
+        //equals
         System.out.println(product1.equals(product2));
         System.out.println(product2.equals(product1));
     }
